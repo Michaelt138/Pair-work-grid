@@ -26,17 +26,26 @@ body {
 
 /* ========== NUMBERS ========== */
 .numbergrid {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  gap: 12px 16px;
+  margin-bottom: 24px;
+}
 
-} 
-
-
+.number {
+  background: lightblue;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  padding: 10px 14px;
+  text-align: center;
+}
 
 
 /* ========== LETTERS ========== */
 .lettergrid {
   display: grid;
 
-  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-columns: 75px 75px 75px 75px 75px;
   grid-template-rows: 50px 150px 200px 150px 50px 175px;
   grid-gap: 10px;
 }
@@ -48,8 +57,14 @@ body {
 .storygrid {
   display: grid;
 
-  grid-template-columns: 200px 200px 500px 200px 100px;
+  grid-template-columns: 200px 200px 450px 200px 100px;
   grid-template-rows: 50px 50px 50px 50px 50px 50px;
   grid-gap: 15px;
-  gird-
 }
+
+.story{
+  background: lightpink;
+  border-radius: 10px;
+  padding: 8px 14px;
+  text-align: center;
+  border: 1px solid black;
